@@ -1,4 +1,4 @@
-**Case study \#1: Danny's dinner**
+# **Case study \#1: Danny's dinner**
 
 ## **Task description:**
 

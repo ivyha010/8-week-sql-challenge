@@ -2,7 +2,7 @@
 
 A collection of SQL solutions for **Danny Ma’s 8 Week SQL Challenge**, demonstrating practical data analysis and problem-solving skills using SQL.
 
-This repository contains my solutions to the case studies from the **[8 Week SQL Challenge] (https://8weeksqlchallenge.com)** created by Danny Ma. Each case study explores real-world business scenarios and focuses on writing clear, efficient, and insightful SQL queries.
+This repository contains my solutions to the case studies from the ** 8 Week SQL Challenge (https://8weeksqlchallenge.com)** created by Danny Ma. Each case study explores real-world business scenarios and focuses on writing clear, efficient, and insightful SQL queries.
 
 ## 📂 Case Studies
 

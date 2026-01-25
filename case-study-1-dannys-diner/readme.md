@@ -3,19 +3,13 @@
 ## **Task description:**
 
 Danny has just opened a restaurant that serves three dishes: ramen, curry, and sushi. He wants to use data collected over the first few months of operation to better understand his customers. In particular, Danny is interested in:
-
 * Customer visiting patterns
-
 * Popular menu items
-
 * Total spending behavior
 
 To support this analysis, Danny has shared three datasets:
-
 * sales
-
 * members
-
 * menu
 
 The entity relationship diagram (ERD) for these datasets is shown below:
@@ -35,8 +29,8 @@ The entity relationship diagram (ERD) for these datasets is shown below:
 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January? 
 
-### Bonus question 1: Join All The Things
-### Bonus question 2: Rank All The Things
+11. Bonus question 1: Join All The Things
+12. Bonus question 2: Rank All The Things
 
 ## Solution:
 

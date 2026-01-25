@@ -14,7 +14,7 @@ To support this analysis, Danny has shared three datasets:
 
 The entity relationship diagram (ERD) for these datasets is shown below:
 
-![alt text](http://url/to/img.png) 
+![Entity Relationship Diagram](https://github.com/ivyha010/8-week-sql-challenge/blob/main/case-study-1-dannys-diner/ERD_week1.png) 
 
 ## **Questions:**
 
@@ -29,8 +29,8 @@ The entity relationship diagram (ERD) for these datasets is shown below:
 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January? 
 
-11. Bonus question 1: Join All The Things
-12. Bonus question 2: Rank All The Things
+- Bonus question 1: Join All The Things
+- Bonus question 2: Rank All The Things
 
 ## Solution:
 

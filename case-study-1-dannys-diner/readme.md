@@ -14,8 +14,6 @@ To support this analysis, Danny has shared three datasets:
 
 The entity relationship diagram (ERD) for these datasets is shown below:
 
-<img src="images/erd.png" alt="Entity Relationship Diagram" width="500">
-
 ![Entity Relationship Diagram](https://github.com/ivyha010/8-week-sql-challenge/blob/main/case-study-1-dannys-diner/ERD_week1.png) 
 
 ## **Questions:**

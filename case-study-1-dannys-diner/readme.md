@@ -1,41 +1,86 @@
-# **Case study \#1: Danny's dinner**
+#**Case Study \#1: Danny's Dinner**
 
-## **Task description:**
+## **Problem:**
 
-Danny has just opened a restaurant that serves three dishes: ramen, curry, and sushi. He wants to use data collected over the first few months of operation to better understand his customers. In particular, Danny is interested in:
-* Customer visiting patterns
-* Popular menu items
-* Total spending behavior
+Danny owns a restaurant serving three products: ramen, curry, and sushi. He wants to evaluate customer behavior and loyalty program effectiveness using transactional data collected during the restaurant’s early months.
 
-To support this analysis, Danny has shared three datasets:
-* sales
-* members
-* menu
+The objective is to transform relational sales data into actionable customer- and product-level insights that support data-driven decision-making around revenue, retention, and promotions.
+
+Key analytical objectives included:
+
+* Analyzing customer revenue contribution and visit frequency
+
+* Identifying top-performing products overall and per customer
+
+* Evaluating purchasing behavior before and after loyalty membership
+
+* Modeling loyalty point calculations under promotional rules
+
+
+## **Approach:**
+
+The analysis was conducted using three relational tables:
+
+* sales – transaction-level purchase data
+
+* menu – product metadata and pricing
+
+* members – loyalty program enrollment dates
+
 
 The entity relationship diagram (ERD) for these datasets is shown below:
 
 ![Entity Relationship Diagram](https://github.com/ivyha010/8-week-sql-challenge/blob/main/case-study-1-dannys-diner/ERD_week1.png) 
 
-## **Questions:**
 
-1. What is the total amount each customer spent at the restaurant?
-2. How many days has each customer visited the restaurant?
-3. What was the first item from the menu purchased by each customer?
-4. What is the most purchased item on the menu and how many times was it purchased by all customers? 
-5. Which item was the most popular for each customer? 
-6. Which item was purchased first by the customer after they became a member? 
-7. Which item was purchased just before the customer became a member? 
-8. What is the total items and amount spent for each member before they became a member?
-9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January? 
+To generate actionable insights, I:
 
-- Bonus question 1: Join All The Things
-- Bonus question 2: Rank All The Things
+* Joined the fact table (sales) with dimension tables (menu, members) using primary–foreign key relationships
 
-## Solution:
+* Calculated customer-level revenue and visit frequency using aggregation functions
 
-This case study is completed using MySQL Workbench.
+* Segmented transactions based on membership join dates to compare pre- and post-membership behavior
 
-* The *data_week1.sql* file contains SQL statements to create and populate the three dataset tables.
+* Applied window functions to identify first purchases and product popularity
 
-* The *queries_week1.sql* file includes all SQL queries used to answer the questions above.
+* Implemented business rules for loyalty point calculations using CASE expressions
+
+* Structured queries with CTEs to enhance modularity, clarity, and maintainability
+
+
+## **Key Insights:**
+
+* Customer revenue contribution is unevenly distributed, enabling identification of higher-value customers for targeted engagement strategies.
+
+* Sushi is the top-performing product by purchase frequency, indicating strong product-market fit and revenue-driving potential.
+
+* Clear first-purchase patterns emerge across customers, providing insight into initial product preferences and onboarding behavior.
+
+* Purchase frequency increases after loyalty enrollment, suggesting a positive behavioral shift associated with membership participation.
+
+* Promotional point multipliers significantly affect total rewards accumulation, demonstrating how incentive structures can influence perceived customer value.
+
+
+## **Business Impact:**
+
+This analysis provides actionable insights to support data-driven decision-making, including:
+
+* Customer segmentation based on revenue contribution and visit frequency to prioritize retention strategies
+
+* Product performance evaluation to identify revenue-driving menu items and inform promotional focus
+
+* Loyalty program assessment by measuring behavioral changes before and after membership enrollment
+
+* Promotion optimization through analysis of point multipliers and incentive structures
+
+
+## **Tools:**
+
+MySQL Workbench – query development, execution, and result validation
+
+
+## **Project Files:**
+
+* data_week1.sql - SQL script for table creation and data population
+
+* queries_week1.sql - Complete set of analytical queries addressing all business objectives, including bonus tasks

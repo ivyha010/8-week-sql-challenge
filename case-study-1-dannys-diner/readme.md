@@ -21,7 +21,7 @@ Key analytical objectives included:
 
 The analysis was conducted using three relational tables:
 
-* sales - transaction-level purchase data
+* sales - transaction level purchase data
 
 * menu - product metadata and pricing
 

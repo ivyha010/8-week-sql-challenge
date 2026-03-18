@@ -1,6 +1,6 @@
 ## **Case Study \#2: Pizza Runner**
 
-## *Problem:*
+## **Problem**
 
 Pizza Runner is a food delivery business that combines pizza ordering with a network of delivery runners. Danny wants to analyze operational and customer data to improve delivery performance, optimize order processing, and better understand customer preferences.
 
@@ -18,7 +18,7 @@ Key analytical objectives included:
 
 * Measuring operational efficiency across the delivery process
 
-## *Approach:*
+## **Approach**
 
 The analysis was conducted using multiple relational tables, including:
 
@@ -53,7 +53,7 @@ To prepare and analyze the data, I:
 * Structured queries using CTEs for clarity and modularity
 
 
-## *Key Insights:*
+## **Key Insights**
 
 * A portion of orders were cancelled or not delivered, impacting overall operational efficiency
 
@@ -66,7 +66,7 @@ To prepare and analyze the data, I:
 * Successful deliveries provide a clearer view of true customer demand and runner performance
 
 
-## *Business Impact:*
+## **Business Impact**
 
 This analysis supports operational and business improvements, including:
 
@@ -91,12 +91,12 @@ From a technical perspective, this project demonstrates:
 * Structured and scalable SQL query design
   
 
-## *Tools:*
+## **Tools**
 
 MySQL Workbench
 
 
-## *Project Files:*
+## **Project Files**
 
 week2_data.sql - table creation and initial data setup
 

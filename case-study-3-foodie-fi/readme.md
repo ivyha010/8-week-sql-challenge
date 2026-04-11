@@ -85,7 +85,11 @@ MySQL Workbench
 ## *Project Files:*
 
 week3_data.sql - table creation and setup 
+
 week3_a_customer_journey.sql - analysis of customer onboarding journeys, tracking individual subscription paths and plan transitions
+
 week3_b_data_analysis_questions.sql - analysis of customer growth, subscription trends, churn rates, and plan transitions across the customer lifecycle
+
 week3_c_challenge_payment_question.sql - payment modeling and revenue calculation based on subscription rules, including upgrades, billing cycles, and churn behavior
+
 week3_d_outside_the_box_questions.sql - exploratory analysis of strategic business questions, including growth rate estimation, KPI recommendations, customer journey analysis, and churn reduction strategies

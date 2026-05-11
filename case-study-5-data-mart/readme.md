@@ -119,8 +119,12 @@ MySQL Workbench
 
 ## *Project Files:*
 
-week5_data.sql - table creation and data setup
-week5_data_cleaning.sql - data cleaning and preprocessing
-week5_data_exploration.sql - exploratory analysis of sales and customer data
-week5_before_after_analysis.sql - comparative analysis of pre- and post-intervention sales performance
-week5_bonus_question.sql - extended analysis of business impact across customer segments and regions
+* week5_data.sql - table creation and data setup
+  
+* week5_data_cleaning.sql - data cleaning and preprocessing
+  
+* week5_data_exploration.sql - exploratory analysis of sales and customer data
+  
+* week5_before_after_analysis.sql - comparative analysis of pre- and post-intervention sales performance
+  
+* week5_bonus_question.sql - extended analysis of business impact across customer segments and regions

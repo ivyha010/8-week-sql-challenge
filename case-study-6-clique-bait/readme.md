@@ -31,7 +31,7 @@ The analysis was conducted using web event and campaign interaction data, includ
 
 The entity relationship diagram (ERD) for these datasets is shown below:
 
-![Entity Relationship Diagram](https://github.com/ivyha010/8-week-sql-challenge/blob/main/case-study-6-clique_bait/ERD_week6.png) 
+![Entity Relationship Diagram](https://github.com/ivyha010/8-week-sql-challenge/blob/main/case-study-6-clique-bait/ERD_week6.png) 
 
 To derive insights, I:
 

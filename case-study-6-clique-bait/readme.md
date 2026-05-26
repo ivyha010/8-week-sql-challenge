@@ -1,5 +1,4 @@
-##**Case Study \#6: Clique Bait**
-
+## **Case Study \#6: Clique Bait**
 
 ## *Problem:*
 

@@ -1,7 +1,7 @@
-#**Case Study \#7: Balanced Tree Clothing Co.**
+## **Case Study \#7: Balanced Tree Clothing Co.**
 
 
-## *Problem*
+## **Problem**
 
 Balanced Tree Clothing Co. is a fashion retailer seeking to better understand its sales performance, customer purchasing behavior, and product trends. The business wants to evaluate transaction patterns, product performance, and membership behavior to support merchandising and revenue optimization strategies.
 
@@ -19,7 +19,7 @@ Key analytical objectives included:
 
 * Discovering common product combinations and purchasing patterns
 
-## *Approach*
+## **Approach**
 
 The analysis was conducted using transactional sales and product hierarchy data, including:
 
@@ -47,7 +47,7 @@ To derive insights, I:
 
 * Structured queries using CTEs and window functions for modular and scalable analysis
 
-## *Key Insights*
+## **Key Insights**
 
 ### *High-Level Sales Performance*
 
@@ -119,11 +119,11 @@ From a technical perspective, this project demonstrates:
 
 * Structured SQL query design using CTEs and window functions
 
-## *Tools*
+## **Tools**
 
 MySQL Workbench
 
-## *Project Files*
+## **Project Files**
 
 * week7_data.sql - table creation and data setup
 

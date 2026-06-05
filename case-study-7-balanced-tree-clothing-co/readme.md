@@ -93,7 +93,7 @@ Womens: Grey Fashion Jacket - Womens (3,876 units)
 
 The most common 3-product combination: White Tee Shirt - Mens, Grey Fashion Jacket - Womens, Teal Button Up Shirt - Mens, appearing together in 352 transactions.
 
-## *Business Impact*
+## **Business Impact**
 
 This analysis provides actionable insights to support merchandising and sales strategy decisions, including:
 

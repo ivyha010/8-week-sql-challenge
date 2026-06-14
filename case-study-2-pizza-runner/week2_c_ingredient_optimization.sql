@@ -13,6 +13,12 @@ For example: "Meat Lovers: 2xBacon, Beef, ... , Salami"
 */
 
 -- 1. What are the standard ingredients for each pizza?
+-- Result: 
+-- pizza_name 			ingredients
+-- Meatlovers			Bacon, BBQ Sauce, Beef, Cheese, Chicken, Mushrooms, Pepperoni, Salami
+-- Supreme				Bacon, BBQ Sauce, Beef, Cheese, Chicken, Mushrooms, Onions, Pepperoni, Peppers, Salami, Tomato Sauce, Tomatoes
+-- Vegetarian			Cheese, Mushrooms, Onions, Peppers, Tomato Sauce, Tomatoes
+
 WITH RECURSIVE split_toppings AS (
 	SELECT 
 		pizza_id, 
@@ -43,6 +49,10 @@ GROUP BY pn.pizza_name;
 
 
 -- 2. What was the most commonly added extra?
+-- Result: 
+-- topping_name 	extra_count
+-- 	Bacon				4
+
 WITH RECURSIVE split_extras AS (
 	SELECT 
 		TRIM(SUBSTRING_INDEX(extras, ',', 1)) AS extra, 
@@ -330,6 +340,14 @@ INNER JOIN pizza_names AS pn
 ON o.pizza_id = pn.pizza_id; 
 
 -- 6. What is the total quantity of each ingredient used in all delivered pizzas sorted by most frequent first?
+-- Result: 
+-- topping_name		total_quantity
+-- Bacon				12
+-- Mushrooms			11
+-- Cheese				10	
+-- Beef					9
+-- Chicken				9
+
 WITH RECURSIVE delivered_orders AS (
 	SELECT 
 		ROW_NUMBER() OVER(ORDER BY ro.order_id, co.pizza_id) AS row_id,

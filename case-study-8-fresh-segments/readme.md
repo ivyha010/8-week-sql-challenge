@@ -1,4 +1,4 @@
-## ** Case Study \#8: Fresh Segments**
+## **Case Study \#8: Fresh Segments**
  
 ## **Problem **
 

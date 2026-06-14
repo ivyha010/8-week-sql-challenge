@@ -58,7 +58,7 @@ To generate actionable insights, I:
 
 * Membership enrollment appears to influence purchasing behavior, with members continuing to make purchases after joining and generating additional revenue through repeat visits.
 
-*Loyalty rewards can materially impact customer value perception, with Customer A accumulating the highest reward balance (1,370 points) under the promotional points structure despite only slightly outspending Customer B.
+* Loyalty rewards can materially impact customer value perception, with Customer A accumulating the highest reward balance (1,370 points) under the promotional points structure despite only slightly outspending Customer B.
 
 
 ## **Business Impact:**

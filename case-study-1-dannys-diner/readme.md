@@ -50,15 +50,15 @@ To generate actionable insights, I:
 
 ## **Key Insights:**
 
-* Customer revenue contribution is unevenly distributed, enabling identification of higher value customers for targeted engagement strategies.
+* Customer A generated the highest revenue ($76), closely followed by Customer B ($74), while Customer C spent significantly less ($36), highlighting differences in customer value and spending behavior
+ 
+* Ramen was the most purchased menu item with 8 orders, making it the restaurant's most popular product overall.
+  
+* Customer preferences varied across the customer base, with ramen emerging as the most popular item for multiple customers.
 
-* Sushi is the top performing product by purchase frequency, indicating strong product - market fit and revenue - driving potential.
+* Membership enrollment appears to influence purchasing behavior, with members continuing to make purchases after joining and generating additional revenue through repeat visits.
 
-* Clear first purchase patterns emerge across customers, providing insight into initial product preferences and onboarding behavior.
-
-* Purchase frequency increases after loyalty enrollment, suggesting a positive behavioral shift associated with membership participation.
-
-* Promotional point multipliers significantly affect total rewards accumulation, demonstrating how incentive structures can influence perceived customer value.
+*Loyalty rewards can materially impact customer value perception, with Customer A accumulating the highest reward balance (1,370 points) under the promotional points structure despite only slightly outspending Customer B.
 
 
 ## **Business Impact:**

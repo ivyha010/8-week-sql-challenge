@@ -55,16 +55,17 @@ To prepare and analyze the data, I:
 
 ## **Key Insights**
 
-* A portion of orders were cancelled or not delivered, impacting overall operational efficiency
+* Pizza Runner received 14 pizza orders across 10 unique customer orders, with 12 pizzas successfully delivered by runners.
 
-* Delivery times and distances vary across runners, highlighting performance differences
+* Runner performance varied significantly, with Runner 1 achieving a 100% delivery success rate compared to 75% for Runner 2 and 50% for Runner 3.
 
-* Certain pizzas are consistently more popular, driving the majority of orders
+* Meatlovers was the dominant product, accounting for 9 of 12 delivered pizzas (75%), indicating substantially higher demand than Vegetarian pizzas.
 
-* Customers frequently customize orders through exclusions and extras, increasing order complexity
+* Order customization was common, with several customers requesting exclusions or extras. Bacon was the most frequently added extra, while Cheese was the most commonly excluded ingredient.
 
-* Successful deliveries provide a clearer view of true customer demand and runner performance
+* Larger orders required longer preparation times, increasing from an average of 12 minutes for single-pizza orders to 29 minutes for orders containing three pizzas.
 
+* Successful deliveries generated $138 in revenue, providing a baseline measure of business performance during the analysis period.
 
 ## **Business Impact**
 

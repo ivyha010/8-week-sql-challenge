@@ -1,6 +1,6 @@
 ## **Case Study \#8: Fresh Segments**
  
-## **Problem **
+## **Problem**
 
 Fresh Segments is a customer segmentation platform that helps businesses better understand consumer interests and behaviors. The company wants to evaluate the quality and stability of its audience segments by analyzing interest composition, ranking changes, and segment performance over time.
 
@@ -18,7 +18,7 @@ Key analytical objectives included:
 
 * Assessing the effectiveness of the overall segmentation model
 
-## ** Approach ** 
+## **Approach** 
 
 The analysis was conducted using audience interest and composition data, including:
 
@@ -44,7 +44,7 @@ To derive insights, I:
 
 * Structured queries using CTEs and window functions for modular and scalable analysis
 
-## ** Key Insights **
+## **Key Insights**
 
 * Interest Performance and Composition
 
@@ -54,7 +54,7 @@ To derive insights, I:
 
 - Rolling-average analysis highlighted fluctuations in segment performance rather than consistent long-term dominance by a single interest group.
 
-## ** Segment Stability Analysis **
+## **Segment Stability Analysis**
 
 - Changes in maximum average composition indicate that audience concentration within specific segments is not static.
 
@@ -62,7 +62,7 @@ To derive insights, I:
 
 - A noticeable decline in maximum average composition values during 2019 suggests that customer interests may be becoming less concentrated in highly distinctive segments. This trend could indicate increasing audience fragmentation, making it more difficult to identify strongly differentiated customer groups. If sustained, declining segment concentration may reduce the effectiveness of Fresh Segments' value proposition and limit the ability to deliver clear, actionable audience insights to clients.
 
-## ** Business Impact ** 
+## **Business Impact** 
 
 This analysis provides strategic insights to support the continuous improvement of Fresh Segments' audience intelligence platform, including:
 
@@ -88,11 +88,11 @@ From a technical perspective, this project demonstrates:
 
 * Translation of analytical findings into strategic business recommendations
 
-## ** Tools ** 
+## **Tools** 
 
 MySQL Workbench
 
-## ** Project Files **
+## **Project Files**
 
 week8_data.sql - table creation and data setup
 

@@ -1,4 +1,4 @@
-## ** Case Study \#4: Data Bank**
+## **Case Study \#4: Data Bank**
 
 ## *Problem:*
 
@@ -44,7 +44,7 @@ To derive insights, I:
 
 * Structured queries using CTEs for modular and scalable analysis
 
-## ** Key insights: **
+## **Key insights:**
 
 * Customers are reallocated approximately every ~14.6 days, indicating a highly dynamic and load-balanced node system
 
@@ -56,7 +56,7 @@ To derive insights, I:
 
 * Different data allocation methods present clear trade-offs between cost, accuracy, and responsiveness, requiring strategic optimization 
 
-## ** Business Impact: **
+## **Business Impact:**
 
 This analysis supports strategic and operational decision-making, including:
 
@@ -88,11 +88,11 @@ From a technical standpoint, this project demonstrates:
 
 * Analytical thinking applied to system design and business strategy
 
-## ** Tools: **
+## **Tools:**
 
 MySQL Workbench
 
-## ** Project files: **
+## **Project files:**
 
 week4_data.sql - table creation and data setup
 

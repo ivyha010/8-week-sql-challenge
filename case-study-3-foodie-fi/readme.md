@@ -41,15 +41,15 @@ To derive insights, I:
 
 ## *Key Insights:*
 
-* A significant proportion of users convert from trial to paid plans, indicating effective onboarding
-
-* Churn is concentrated after initial subscription periods, highlighting early retention challenges
-
-* Customers tend to upgrade plans over time, contributing to revenue growth
-
-* Monthly plans drive the majority of subscriptions, while annual plans contribute higher per-customer revenue
-
-* Customer lifecycle analysis reveals distinct stages from trial to churn, enabling targeted retention strategies.
+* Foodie-Fi acquired 1,000 customers during the analysis period, providing a substantial user base for subscription and retention analysis
+  
+* Only 9% of customers (92 users) churned immediately after the free trial, indicating that the trial program was effective at converting most users into paid subscriptions
+  
+* Annual plans attracted 195 customers in 2020, demonstrating a meaningful willingness among users to commit to long-term subscriptions
+  
+* Customers who upgraded to an annual plan took an average of 104.6 days from initial signup, suggesting that plan upgrades typically occur after several months of product usage and engagement
+  
+* No customers downgraded from a Pro Monthly plan to a Basic Monthly plan during 2020, indicating strong retention among higher-tier subscribers
 
 
 ## *Business Impact:*

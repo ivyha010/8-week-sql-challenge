@@ -15,7 +15,7 @@
 
 -- Solution:
 -- 1. What is the total amount each customer spent at the restaurant?
--- Results: 
+-- Result: 
 -- customer_id 		total_amount_spent
 -- 		A					76
 -- 		B					74
@@ -29,7 +29,7 @@ GROUP BY sales.customer_id
 ORDER BY sales.customer_id;
 
 -- 2. How many days has each customer visited the restaurant?
--- Results: 
+-- Result: 
 -- customer_id 		total_amount_spent
 -- 		A					76
 -- 		B					74
@@ -40,7 +40,7 @@ FROM sales
 GROUP BY customer_id;
 
 -- 3. What was the first item from the menu purchased by each customer?
--- Results: 
+-- Result: 
 -- customer_id 		product_name
 -- 		A				sushi
 --  	A				curry
@@ -66,7 +66,7 @@ WHERE ranking = 1;
 
 
 -- 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
--- Results: 
+-- Result: 
 -- product_name 	times 
 -- ramen			  8
 
@@ -88,7 +88,7 @@ WHERE ranking = 1;
 
 
 -- 5. Which item was the most popular for each customer?
--- Results: 
+-- Result: 
 -- customer_id 		most_popular_item
 -- 		A				ramen
 -- 		B				curry
@@ -112,7 +112,7 @@ FROM rank_table
 WHERE ranking = 1;
 
 -- 6. Which item was purchased first by the customer after they became a member?
--- Results: 
+-- Result: 
 -- customer_id 		product_name
 -- 		A				curry
 -- 		B				sushi
@@ -139,7 +139,7 @@ WHERE ranking = 1;
 
 
  -- 7. Which item was purchased just before the customer became a member?
- -- Results: 
+ -- Result: 
  -- customer_id 	product_name
  -- 	A				sushi
  --  	A				curry
@@ -165,7 +165,7 @@ WHERE ranking = 1;
  
 
 -- 8. What is the total items and amount spent for each member before they became a member?
--- Results: 
+-- Result: 
 -- customer_id 		total_items		total_spend
 -- 		B				3				40
 -- 		A				2				25
@@ -184,7 +184,7 @@ GROUP BY s.customer_id;
 
 
 -- 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
--- Results: 
+-- Result: 
 -- customer_id 		num_points
 -- 		A				860
 -- 		B				940
@@ -203,7 +203,7 @@ GROUP BY s.customer_id;
 
 
 -- 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
--- Results: 
+-- Result: 
 -- customer_id 		total_points 
 -- 		B				820
 -- 		A				1370
